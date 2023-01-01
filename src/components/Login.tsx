@@ -18,8 +18,6 @@ const Login = () => {
         <Box w='50%' mx='auto'>
             <FormControl isRequired background='red.200' padding='10px' height='400px' mt='80px' borderRadius="10">
                 <Text fontSize={40} fontWeight='extrabold'>Log In</Text>
-                {/* <FormLabel mb='10px' ml='25%' >Enter Your Name</FormLabel>
-                <Input mb='10px' placeholder='Enter Your Name' w='50%' type='name' /> */}
                 <FormLabel mb='10px' ml='25%'>Email address</FormLabel>
                 <Input mb='10px' placeholder='Enter Your Email' w='50%' type='email' />
                 <FormLabel mb='10px' ml='25%'>Enter Your Password</FormLabel>
